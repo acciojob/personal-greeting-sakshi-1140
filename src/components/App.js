@@ -13,10 +13,15 @@ const displayGreetings=(event)=>{
     <div>
         {/* Do not remove the main div */}
     <p>Enter your name:</p>
-    <input type="text" value={name} onChange={displayGreetings}/>
+    
+    <input type="text" value={name} onChange={displayGreetings}/> 
     {name ? <p>Hello {name}!</p> : null}
     
-  {/* {name && <p>Hello {name}!</p>} */}
+    {/* samething using and operator */}
+  {/* {name && <p>Hello {name}!</p>}   */}
+
+
+{/* gpt solution not currect */}
     {/* {submittedName ? <h1>Hello, {submittedName}!</h1> : null} */}
     </div>
   )
