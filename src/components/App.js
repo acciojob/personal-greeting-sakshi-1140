@@ -12,7 +12,7 @@ const displayGreetings=(event)=>{
   return (
     <div>
         {/* Do not remove the main div */}
-   
+    <p></p>
     <input type="text" value={name} onChange={displayGreetings}/> 
     {name ? <p>Hello {name}!</p> : null}
     
